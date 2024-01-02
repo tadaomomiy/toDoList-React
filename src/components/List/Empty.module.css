@@ -1,0 +1,28 @@
+.container {
+    width: 100%;
+    padding: 4rem 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    border-radius: 0.5rem;
+    border-top: 1px solid var(--gray-400);
+}
+
+.container > p {
+    color: var(--gray-300);
+    flex-direction: column;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+
+    line-height: 140%;
+}
+
+.img {
+    width: 3.5rem;
+    height: 3.5rem;
+}

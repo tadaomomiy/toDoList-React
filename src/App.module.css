@@ -1,0 +1,44 @@
+.wrapper {
+    max-width: 70rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 46rem;
+    margin-top: -3.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.taskList {
+    display: flex;
+    width: 46rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+@media (min-width: 1440px) {
+    html {
+        font-size: 125%;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 87.5%;
+    }
+}
+
+@media (max-width: 412px) {
+    html {
+        font-size: 75%;
+    }
+}
