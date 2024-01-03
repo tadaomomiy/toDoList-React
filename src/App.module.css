@@ -43,10 +43,34 @@
     html {
         font-size: 87.5%;
     }
+    .wrapper {
+        max-width: 34.5rem;
+    }
+
+    .container {
+        width: 34.5rem;
+
+    }
+
+    .taskList {
+        width: 34.5rem;
+    }
 }
 
-@media (max-width: 412px) {
+@media (max-width: 510px) {
     html {
         font-size: 75%;
+    }
+    .wrapper {
+        max-width: 23rem;
+    }
+
+    .container {
+        width: 23rem;
+
+    }
+
+    .taskList {
+        width: 23rem;
     }
 }
