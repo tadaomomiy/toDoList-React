@@ -43,7 +43,7 @@ export function Item({data, deleteTask, taskStatusDone}: Props) {
                 onClick={handleDelete}
                 className={styles.button}
             >
-                <Trash size={24}/>
+                <Trash />
             </button>
         </div>
     )
